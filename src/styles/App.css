@@ -1,8 +1,15 @@
+* {
+    background-color: #fff;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
-    }
-    
+}
+
+.error {
+    color: red;
+}
 
 button{
     color: #27aedb;
