@@ -58,7 +58,7 @@ const App = () => {
           <input onChange={handleChangeName} value={name} data-testid='name'></input><br />
           <label>Email: </label>
           <input onChange={handleChangeEmail} value={email} data-testid='email'></input><br />
-          <select name="gender">
+          <select data-testid = 'gender' name="gender">
             <option value="male" defaultValue>Male</option>
             <option value="female">Female</option>
             <option value="others">Others</option>
