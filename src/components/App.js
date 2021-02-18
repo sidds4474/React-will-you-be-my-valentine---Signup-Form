@@ -53,7 +53,6 @@ const App = () => {
   return (
     <div id="main">
       <h1>Sign Up Form</h1>
-      <div className="sign-up-page">
         <form action="">
           <label>Name: </label>
           <input onChange={handleChangeName} value={name} data-testid='name'></input><br />
@@ -70,10 +69,7 @@ const App = () => {
           <input onChange={handleChangePassword} value={password} data-testid='password' type="password"></input><br />
           <button onClick={checkCases} type="submit" data-testid='submit'>Submit</button>
         </form>
-        <div className="output">
          <h1 className={errorClass}>{message}</h1>
-        </div>
-      </div>
     </div>
   )
 }
